@@ -16,6 +16,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
+      - run: npm install
       - run: npm run build --if-present
 
       - name: Copy repository contents via scp
@@ -26,7 +27,7 @@ jobs:
           PORT: ${{ secrets.PORT }}
           KEY: ${{ secrets.SSHKEY }}
         with:
-          source: "./.next"
+          source: "/"
           target: "/var/www/gavinpierce.dev"
 
       - name: Executing remote command
