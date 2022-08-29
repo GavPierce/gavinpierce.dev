@@ -29,6 +29,12 @@ export default function Home() {
         />
 
         <link rel="icon" href="/favicon.ico" />
+        <script
+          async
+          defer
+          data-website-id="d511cbe8-6b64-47fd-bd07-247dcb0d2960"
+          src="https://umami.gavinpierce.dev/umami.js"
+        ></script>
       </Head>
       <Header />
       <Body />
