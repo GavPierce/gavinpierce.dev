@@ -26,7 +26,7 @@ jobs:
           PORT: ${{ secrets.PORT }}
           KEY: ${{ secrets.SSHKEY }}
         with:
-          source: "./dist"
+          source: "./.next"
           target: "/var/www/gavinpierce.dev"
 
       - name: Executing remote command
