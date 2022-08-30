@@ -30,7 +30,7 @@ function Header() {
             Fullstack <br></br>Web Dev
           </h1>
           <h3 className="montserrat subtitle">
-            Crafting the web <br></br>one cup at a time
+            Crafting the web <br></br>one cup at a time.
           </h3>
         </div>
         <div className="links">
