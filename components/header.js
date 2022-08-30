@@ -161,7 +161,9 @@ function Header() {
           line-height: 1em;
           letter-spacing: 0.1em;
         }
-
+        .title {
+          background: #f0ebeab0;
+        }
         .subtitle {
           margin-top: 0.5em;
         }
